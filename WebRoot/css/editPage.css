@@ -1,0 +1,58 @@
+.slogan {
+    font: 500 13px/24px "宋体";
+}
+/*小冊路徑開始*/
+.bookpath {
+    margin-top: 5px;
+}
+.bookpath a {
+    font: 400 13px/13px "微软雅黑";
+}
+.bookpath span{
+    font: 600 13px/24px "宋体";
+    margin: auto 5px;
+}
+
+/*小冊設定菜單開始*/
+.setmenu li{
+    background-color: #eeeeee;
+    float: left;
+    margin: auto 8px;
+    padding: 4px 8px 4px 30px;
+    border-radius: 5px;
+    position: relative;
+    background: url("") no-repeat 8px 5px #eeeeee;
+}
+.setmenu li i{
+    position: absolute;
+    width: 15px;
+    height: 7px;
+    top: 11px;
+    right: 7px;
+    overflow: hidden;
+}
+.setmenu li s {
+    font: 600 15px/15px "宋体";
+    color: #999999;
+    position: absolute;
+    top: -8px;
+    right: 0;
+}
+li.setmenu-more {
+    padding-right: 20px;
+}
+.setmenu .view {
+    background-image: url("../images/eye.png");
+}
+.setmenu .update {
+    background-image: url("../images/update.png");
+}
+.setmenu .finish {
+    background-image: url("../images/calendar.png");
+}
+.setmenu .multiset {
+    background-image: url("../images/paperclip.png");
+}
+.setmenu .share {
+    background-image: url("../images/share.png");
+}

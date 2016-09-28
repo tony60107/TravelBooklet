@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f16cfb-464e-4d73-b918-f380bcd37b55" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/images/calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/images/eye.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/images/paperclip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/images/share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/images/update.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebRoot/css/editPage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/css/base.css" afterPath="$PROJECT_DIR$/WebRoot/css/base.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/editPage.html" afterPath="$PROJECT_DIR$/WebRoot/editPage.html" />
     </list>
     <ignored path="TravelBooklet.iws" />
@@ -27,21 +32,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="editPage.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="editPage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebRoot/editPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.419355">
-              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.65206814">
+              <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="editPage.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/css/editPage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-21.387096">
+              <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebRoot/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4767837">
-              <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+            <state vertical-scroll-proportion="-7.903226">
+              <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -68,8 +83,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebRoot/editPage.html" />
         <option value="$PROJECT_DIR$/WebRoot/css/base.css" />
+        <option value="$PROJECT_DIR$/WebRoot/editPage.html" />
+        <option value="$PROJECT_DIR$/WebRoot/css/editPage.css" />
       </list>
     </option>
   </component>
@@ -193,6 +209,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\resource\TravelBooklet\WebRoot\images" />
       <recent name="E:\resource\TravelBooklet\WebRoot\image" />
     </key>
   </component>
@@ -622,12 +639,12 @@
       <created>1475051002169</created>
       <option name="number" value="Default" />
       <updated>1475051002169</updated>
-      <workItem from="1475051013946" duration="7343000" />
+      <workItem from="1475051013946" duration="12324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7343000" />
+    <option name="totallyTimeSpent" value="12324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -665,18 +682,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebRoot/editPage.html">
+    <entry file="file://$PROJECT_DIR$/WebRoot/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.419355">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state vertical-scroll-proportion="-7.903226">
+          <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/css/base.css">
+    <entry file="file://$PROJECT_DIR$/WebRoot/css/editPage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4767837">
-          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+        <state vertical-scroll-proportion="-21.387096">
+          <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/editPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65206814">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
           <folding />
         </state>
       </provider>
