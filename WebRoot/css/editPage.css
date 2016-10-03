@@ -99,6 +99,7 @@ li.setmenu-more {
 /*素材庫開始*/
 .materlib {
     width: 150px;
+    margin: 0;
 }
 .materlib h1 {
     font: 500 16px/16px "宋体";
@@ -132,11 +133,63 @@ li.setmenu-more {
     height: 1px;
     background-color: #666;
 }
+.materlib .manage {
+    height: 18px;
+    padding-left: 42px;
+    margin-right: 15px;
+    background: url("../images/save.png") no-repeat 19px 1px #FFFFFF;
+    cursor: pointer;
+}
+.materlib .func .add {
+    background: url("../images/add.png") no-repeat 6px 6px;
+    background-size: 20px 20px;
+}
+/*素材庫結束*/
 
+/*Canavs開始*/
+.canvazz {
+    position: relative;
+    margin-top: 21px;
+    margin-left: 31px;
+}
+.canvazz canvas {
+    width: 508px;
+    height: 660px;
+    border: 1px solid #666;
+}
+.canvazz .next {
+    font: 400 14px/14px "微软雅黑";
+    position: absolute;
+    top: 335px;
+    right: -29px;
+    background-color: #FFFFFF;
+}
+.canvazz .next span {
+    font: 600 14px/24px "宋体";
+}
+/*Canvas結束*/
 
-
-
-
+/*底部小冊縮圖區開始*/
+.pagemanage {
+    margin-top: 25px;
+}
+.pagemanage .funcbar .pagenum {
+    font: 600 15px/15px "宋体";
+    margin-right: 14px;
+}
+.pagemanage .funcbar .addpage {
+    background: url("../images/plus.png") no-repeat 1px 2px;
+    padding-left: 23px;
+    font: 400 14px/14px "微软雅黑";
+    margin-right: 16px;
+    cursor: pointer;
+}
+.pagemanage .funcbar .managepage {
+    background: url("../images/manage.png") no-repeat 1px 2px;
+    padding-left: 23px;
+    font: 400 14px/14px "微软雅黑";
+    cursor: pointer;
+}
 
 
 
