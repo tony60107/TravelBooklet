@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TravelBooklet - 小冊編輯頁面</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/editPage.css"/>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/simplejsinher.js"></script>
+    <script src="js/pageslider.js"></script>
+    <script src="js/editpage.js"></script>
+</head>
+<body>
+<div class="w">
+    <!--上方導航欄開始-->
+    <div class="nav clearfix">
+        <div class="fl">
+            <div class="nav-logo fl">
+                <h1>旅遊小冊 travelbooklet.com</h1>
+            </div>
+            <div class="nav-items fl">
+                <ul>
+                    <li><a href="#">回首頁</a></li>
+                    <li><a href="#">我的小冊</a></li>
+                    <li><a href="#">點數管理</a></li>
+                    <li><a href="#">帳號管理</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="fr">
+            <div class="nav-user fl">
+                <a class="name" href="#">User Name</a>
+                <a href="#">登出</a>
+            </div>
+            <div class="nav-search fr">
+                <input type="text" placeholder="     search"/>
+            </div>
+        </div>
+    </div>
+    <!--上方導航欄結束-->
+    <div class="nav-line"></div>
+    <div class="slogan">你的旅遊秘笈，我們幫你賣！ Sell your travel ideas. </div>
+    <!--小冊路徑+小冊設定菜單-->
+    <div class="clearfix">
+        <!--小冊路徑-->
+        <div class="bookpath fl">
+            <a href="#">首頁</a>
+            <span>></span>
+            <a href="#">我的小冊</a>
+            <span>></span>
+            <a href="#">編輯小冊</a>
+            <span>></span>
+            <a href="#">HongKong 2016</a>
+            <span>></span>
+            <a href="#">封面-目錄</a>
+        </div>
+        <!--小冊設定菜單-->
+        <div class="setmenu fr">
+            <ul>
+                <li class="setmenu-more view">檢視模式：雙頁<i><s>♦</s></i></li>
+                <li class="setmenu-more update">儲存<i><s>♦</s></i></li>
+                <li class="setmenu-more finish">結束編輯<i><s>♦</s></i></li>
+                <li class="multiset">多人編輯設定</li>
+                <li class="share">分享</li>
+            </ul>
+        </div>
+    </div>
+    <!--工具欄列表開始-->
+    <div class="toolbar fr clearfix">
+        <ul class="fr">
+            <li class="preview">預覽</li>
+            <li class="recover">復原</li>
+            <li class="reset">重作</li>
+            <li class="cut">剪下</li>
+            <li class="paste">貼上</li>
+            <li class="clear">清除內容</li>
+            <li class="changetemp">變更版型</li>
+            <li class="hint">編輯提示</li>
+        </ul>
+    </div>
+    <!--工具欄列表結束-->
+
+    <div class="main clearfix">
+        <!--素材庫開始-->
+        <div class="materlib fl">
+            <h1>素材庫</h1>
+            <div class="line"></div>
+            <div class="func">
+                <div class="square"></div>
+                <h2>文字方塊</h2>
+            </div>
+            <div class="func">
+                <div class="square"></div>
+                <h2>插入圖片</h2>
+            </div>
+            <div class="func">
+                <div class="square"></div>
+                <h2>插入色塊</h2>
+            </div>
+            <div class="func">
+                <div class="square"></div>
+                <h2>插入線條</h2>
+            </div>
+            <div class="func">
+                <div class="square"></div>
+                <h2>插入圖示</h2>
+            </div>
+            <div class="func">
+                <div class="square"></div>
+                <h2>副標題</h2>
+            </div>
+            <div class="func">
+                <div class="square"></div>
+                <h2>大標題</h2>
+            </div>
+            <div class="func">
+                <div class="square"></div>
+                <h2>自訂素材</h2>
+            </div>
+            <div class="func">
+                <div class="square"></div>
+                <h2>自訂素材</h2>
+            </div>
+            <div class="func">
+                <div class="square add"></div>
+                <h2>新增素材</h2>
+            </div>
+            <div class="line-btm"></div>
+            <div class="manage fr">素材管理</div>
+        </div>
+        <!--素材庫結束-->
+
+        <!--Canvas開始-->
+        <div class="canvazz fl">
+            <canvas class="fl"></canvas>
+            <canvas class="fl"></canvas>
+            <span class="next">Next &nbsp;<span>></span></span>
+        </div>
+        <!--Canavs結束-->
+    </div>
+
+    <!--底部小冊縮圖區開始-->
+    <div class="pagemanage">
+        <div class="funcbar">
+            <span class="pagenum">Total 32 pages</span>
+            <span class="addpage">新增頁面</span>
+            <span class="managepage">管理頁面</span>
+        </div>
+        <div class="clearfix" style="width: 1200px; overflow:hidden;">
+            <div class="pagelist clearfix">
+                <div class="pageblock">
+                    <img src="" alt="">
+                    <img class="two" src="" alt="">
+                </div>
+                <div class="pageblock">
+                    <img src="" alt="">
+                    <img class="two" src="" alt="">
+                </div>
+                <div class="pageblock">
+                    <img src="" alt="">
+                    <img class="two" src="" alt="">
+                </div>
+                <div class="pageblock">
+                    <img src="" alt="">
+                    <img class="two" src="" alt="">
+                </div>
+                <div class="pageblock">
+                    <img src="" alt="">
+                    <img class="two" src="" alt="">
+                </div>
+                <div class="pageblock">
+                    <img src="" alt="">
+                    <img class="two" src="" alt="">
+                </div>
+                <div class="pageblock">
+                    <img src="" alt="">
+                    <img class="two" src="" alt="">
+                </div>
+                <div class="pageblock">
+                    <img src="" alt="">
+                    <img class="two" src="" alt="">
+                </div>
+                <div class="pageblock">
+                    <img src="" alt="">
+                    <img class="two" src="" alt="">
+                </div>
+            </div>
+        </div>
+        <span id="prevPages" class="prev"><span><</span> &nbsp;Previous</span>
+        <span id="nextPages" class="next">More &nbsp;<span>></span></span>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
