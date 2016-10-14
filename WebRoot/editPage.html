@@ -5,11 +5,7 @@
     <title>TravelBooklet - 小冊編輯頁面</title>
     <link rel="stylesheet" href="css/base.css"/>
     <link rel="stylesheet" href="css/editPage.css"/>
-    <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/simplejsinher.js"></script>
-    <script src="js/base.js"></script>
-    <script src="js/pageslider.js"></script>
-    <script src="js/editpage.js"></script>
+
 </head>
 <body>
 <div class="w">
@@ -86,35 +82,35 @@
         <div class="materlib fl">
             <h1>素材庫</h1>
             <div class="line"></div>
-            <div class="func">
+            <div id="addTextBox" class="func">
                 <div class="square"></div>
                 <h2>文字方塊</h2>
             </div>
-            <div class="func">
+            <div id="addImg" class="func">
                 <div class="square"></div>
                 <h2>插入圖片</h2>
             </div>
-            <div class="func">
+            <div id="addColorBlock" class="func">
                 <div class="square"></div>
                 <h2>插入色塊</h2>
             </div>
-            <div class="func">
+            <div id="addLine" class="func">
                 <div class="square"></div>
                 <h2>插入線條</h2>
             </div>
-            <div class="func">
+            <div id="addIcon" class="func">
                 <div class="square"></div>
                 <h2>插入圖示</h2>
             </div>
-            <div class="func">
+            <div id="addSubTitle" class="func">
                 <div class="square"></div>
                 <h2>副標題</h2>
             </div>
-            <div class="func">
+            <div id="addTitle" class="func">
                 <div class="square"></div>
                 <h2>大標題</h2>
             </div>
-            <div class="func">
+            <div id="addCusMater" class="func">
                 <div class="square"></div>
                 <h2>自訂素材</h2>
             </div>
@@ -122,7 +118,7 @@
                 <div class="square"></div>
                 <h2>自訂素材</h2>
             </div>
-            <div class="func">
+            <div id="addMater" class="func">
                 <div class="square add"></div>
                 <h2>新增素材</h2>
             </div>
@@ -130,11 +126,10 @@
             <div class="manage fr">素材管理</div>
         </div>
         <!--素材庫結束-->
-
         <!--Canvas開始-->
         <div class="canvazz fl">
-            <canvas class="fl"></canvas>
-            <canvas class="fl"></canvas>
+            <div id="canvasOne" class="fl"></div>
+            <div id="canvasTwo" class="fl"></div>
             <span class="next">Next &nbsp;<span>></span></span>
         </div>
         <!--Canavs結束-->
@@ -210,11 +205,23 @@
         <span id="prevPages" class="prev"><span><</span> &nbsp;Previous</span>
         <span id="nextPages" class="next">More &nbsp;<span>></span></span>
     </div>
+    <!--底部小冊縮圖區結束-->
+    <div style="height: 1000px;"></div>
 </div>
-
+<!--素材庫拖曳時的圖片-->
+<img id="dragImg" src="images/square.jpg">
+<!--新增文字時出現的輸入框-->
+<input id="addTextInput" type="text"/>
 </body>
 </html>
 
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/simplejsinher.js"></script>
+<script src="https://cdn.rawgit.com/konvajs/konva/1.2.2/konva.min.js"></script>
+<script src="js/base.js"></script>
+<script src="js/editpage/pageslider.js"></script>
+<script src="js/editpage/materlib.js"></script>
+<script src="js/editpage/editpage.js"></script>
 
 
 

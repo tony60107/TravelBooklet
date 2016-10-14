@@ -152,7 +152,7 @@ li.setmenu-more {
     margin-top: 21px;
     margin-left: 31px;
 }
-.canvazz canvas {
+.canvazz div {
     width: 508px;
     height: 660px;
     border: 1px solid #666;
@@ -239,6 +239,23 @@ li.setmenu-more {
     right: -20px;
 }
 /*底部小冊縮圖區結束*/
+
+#dragImg {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#addTextInput{
+    width: 100px;
+    height: 30px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid #999;
+    background-color: rgba(255, 255, 255, 0.1);
+}
 
 
 

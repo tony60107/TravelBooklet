@@ -3,8 +3,9 @@
  */
 
 $(document).ready(function(){
-    var pageSlider = new  PageSlider();
     pageSlider.bindEvent();
-
+    materLib.bindEvent();
+    //禁止拖曳
+    document.ondragstart = function(){return false};
 });
 
